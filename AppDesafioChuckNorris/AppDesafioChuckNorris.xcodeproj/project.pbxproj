@@ -16,6 +16,12 @@
 		038FA7C02964E4170027FF34 /* AppDesafioChuckNorrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FA7BF2964E4170027FF34 /* AppDesafioChuckNorrisTests.swift */; };
 		038FA7CA2964E4170027FF34 /* AppDesafioChuckNorrisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FA7C92964E4170027FF34 /* AppDesafioChuckNorrisUITests.swift */; };
 		038FA7CC2964E4170027FF34 /* AppDesafioChuckNorrisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FA7CB2964E4170027FF34 /* AppDesafioChuckNorrisUITestsLaunchTests.swift */; };
+		038FA7E12964E7510027FF34 /* CategoriesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FA7E02964E7510027FF34 /* CategoriesScreen.swift */; };
+		038FA7E32964E78A0027FF34 /* CategoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FA7E22964E78A0027FF34 /* CategoriesViewModel.swift */; };
+		038FA7E82964E7E70027FF34 /* GenericService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FA7E72964E7E70027FF34 /* GenericService.swift */; };
+		3AF84D577932D8F79C6CEB2A /* Pods_AppDesafioChuckNorris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98A040B5D85E3DEAE431832F /* Pods_AppDesafioChuckNorris.framework */; };
+		C5BBE403B1BC30515CD791CC /* Pods_AppDesafioChuckNorris_AppDesafioChuckNorrisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CD7A6B1786E5DF099D2CA9 /* Pods_AppDesafioChuckNorris_AppDesafioChuckNorrisUITests.framework */; };
+		C7D83BFD40D1D6436B912435 /* Pods_AppDesafioChuckNorrisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE93563908A6DCCC24E42EFA /* Pods_AppDesafioChuckNorrisTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,18 @@
 		038FA7C52964E4170027FF34 /* AppDesafioChuckNorrisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppDesafioChuckNorrisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		038FA7C92964E4170027FF34 /* AppDesafioChuckNorrisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDesafioChuckNorrisUITests.swift; sourceTree = "<group>"; };
 		038FA7CB2964E4170027FF34 /* AppDesafioChuckNorrisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDesafioChuckNorrisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		038FA7E02964E7510027FF34 /* CategoriesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesScreen.swift; sourceTree = "<group>"; };
+		038FA7E22964E78A0027FF34 /* CategoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewModel.swift; sourceTree = "<group>"; };
+		038FA7E72964E7E70027FF34 /* GenericService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericService.swift; sourceTree = "<group>"; };
+		03CA8D68FA92F4CFAAE29F14 /* Pods-AppDesafioChuckNorris.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDesafioChuckNorris.debug.xcconfig"; path = "Target Support Files/Pods-AppDesafioChuckNorris/Pods-AppDesafioChuckNorris.debug.xcconfig"; sourceTree = "<group>"; };
+		57D10E5140D515223308DE2A /* Pods-AppDesafioChuckNorris-AppDesafioChuckNorrisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDesafioChuckNorris-AppDesafioChuckNorrisUITests.debug.xcconfig"; path = "Target Support Files/Pods-AppDesafioChuckNorris-AppDesafioChuckNorrisUITests/Pods-AppDesafioChuckNorris-AppDesafioChuckNorrisUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D16A040E7A31D0C32F9599F /* Pods-AppDesafioChuckNorrisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDesafioChuckNorrisTests.debug.xcconfig"; path = "Target Support Files/Pods-AppDesafioChuckNorrisTests/Pods-AppDesafioChuckNorrisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		98A040B5D85E3DEAE431832F /* Pods_AppDesafioChuckNorris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppDesafioChuckNorris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01E67EE6F3C3A359936224B /* Pods-AppDesafioChuckNorris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDesafioChuckNorris.release.xcconfig"; path = "Target Support Files/Pods-AppDesafioChuckNorris/Pods-AppDesafioChuckNorris.release.xcconfig"; sourceTree = "<group>"; };
+		D120B7A6A784113A834147DD /* Pods-AppDesafioChuckNorris-AppDesafioChuckNorrisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDesafioChuckNorris-AppDesafioChuckNorrisUITests.release.xcconfig"; path = "Target Support Files/Pods-AppDesafioChuckNorris-AppDesafioChuckNorrisUITests/Pods-AppDesafioChuckNorris-AppDesafioChuckNorrisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DE93563908A6DCCC24E42EFA /* Pods_AppDesafioChuckNorrisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppDesafioChuckNorrisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1CD7A6B1786E5DF099D2CA9 /* Pods_AppDesafioChuckNorris_AppDesafioChuckNorrisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppDesafioChuckNorris_AppDesafioChuckNorrisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA8C66AEF41AD80092B7ECC /* Pods-AppDesafioChuckNorrisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDesafioChuckNorrisTests.release.xcconfig"; path = "Target Support Files/Pods-AppDesafioChuckNorrisTests/Pods-AppDesafioChuckNorrisTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AF84D577932D8F79C6CEB2A /* Pods_AppDesafioChuckNorris.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7D83BFD40D1D6436B912435 /* Pods_AppDesafioChuckNorrisTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5BBE403B1BC30515CD791CC /* Pods_AppDesafioChuckNorris_AppDesafioChuckNorrisUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				038FA7BE2964E4170027FF34 /* AppDesafioChuckNorrisTests */,
 				038FA7C82964E4170027FF34 /* AppDesafioChuckNorrisUITests */,
 				038FA7A32964E4150027FF34 /* Products */,
+				660003AD23D05E905BECC96D /* Pods */,
+				EDD2D3754CDF5A3440F56F43 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +122,8 @@
 		038FA7A42964E4150027FF34 /* AppDesafioChuckNorris */ = {
 			isa = PBXGroup;
 			children = (
-				038FA7A52964E4150027FF34 /* AppDelegate.swift */,
-				038FA7A72964E4150027FF34 /* SceneDelegate.swift */,
-				038FA7A92964E4150027FF34 /* CategoriesVC.swift */,
-				038FA7B12964E4170027FF34 /* Assets.xcassets */,
-				038FA7B32964E4170027FF34 /* LaunchScreen.storyboard */,
-				038FA7B62964E4170027FF34 /* Info.plist */,
+				038FA7D92964E6860027FF34 /* Sources */,
+				038FA7D82964E65E0027FF34 /* Resources */,
 				038FA7AE2964E4150027FF34 /* AppDesafioChuckNorris.xcdatamodeld */,
 			);
 			path = AppDesafioChuckNorris;
@@ -127,6 +146,108 @@
 			path = AppDesafioChuckNorrisUITests;
 			sourceTree = "<group>";
 		};
+		038FA7D82964E65E0027FF34 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				038FA7B12964E4170027FF34 /* Assets.xcassets */,
+				038FA7B32964E4170027FF34 /* LaunchScreen.storyboard */,
+				038FA7B62964E4170027FF34 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		038FA7D92964E6860027FF34 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				038FA7E42964E7AC0027FF34 /* Service */,
+				038FA7DC2964E6AA0027FF34 /* Categories */,
+				038FA7DB2964E6A30027FF34 /* AppDelegate */,
+				038FA7DA2964E69A0027FF34 /* SceneDelegate */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		038FA7DA2964E69A0027FF34 /* SceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				038FA7A72964E4150027FF34 /* SceneDelegate.swift */,
+			);
+			path = SceneDelegate;
+			sourceTree = "<group>";
+		};
+		038FA7DB2964E6A30027FF34 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				038FA7A52964E4150027FF34 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		038FA7DC2964E6AA0027FF34 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				038FA7DF2964E6C50027FF34 /* ViewModel */,
+				038FA7DE2964E6BD0027FF34 /* VC */,
+				038FA7DD2964E6B30027FF34 /* Screen */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		038FA7DD2964E6B30027FF34 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				038FA7E02964E7510027FF34 /* CategoriesScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		038FA7DE2964E6BD0027FF34 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				038FA7A92964E4150027FF34 /* CategoriesVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		038FA7DF2964E6C50027FF34 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				038FA7E22964E78A0027FF34 /* CategoriesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		038FA7E42964E7AC0027FF34 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				038FA7E72964E7E70027FF34 /* GenericService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		660003AD23D05E905BECC96D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03CA8D68FA92F4CFAAE29F14 /* Pods-AppDesafioChuckNorris.debug.xcconfig */,
+				C01E67EE6F3C3A359936224B /* Pods-AppDesafioChuckNorris.release.xcconfig */,
+				57D10E5140D515223308DE2A /* Pods-AppDesafioChuckNorris-AppDesafioChuckNorrisUITests.debug.xcconfig */,
+				D120B7A6A784113A834147DD /* Pods-AppDesafioChuckNorris-AppDesafioChuckNorrisUITests.release.xcconfig */,
+				7D16A040E7A31D0C32F9599F /* Pods-AppDesafioChuckNorrisTests.debug.xcconfig */,
+				FFA8C66AEF41AD80092B7ECC /* Pods-AppDesafioChuckNorrisTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EDD2D3754CDF5A3440F56F43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98A040B5D85E3DEAE431832F /* Pods_AppDesafioChuckNorris.framework */,
+				F1CD7A6B1786E5DF099D2CA9 /* Pods_AppDesafioChuckNorris_AppDesafioChuckNorrisUITests.framework */,
+				DE93563908A6DCCC24E42EFA /* Pods_AppDesafioChuckNorrisTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 038FA7CF2964E4170027FF34 /* Build configuration list for PBXNativeTarget "AppDesafioChuckNorris" */;
 			buildPhases = (
+				35393117ED1215FBE91A7ADE /* [CP] Check Pods Manifest.lock */,
 				038FA79E2964E4150027FF34 /* Sources */,
 				038FA79F2964E4150027FF34 /* Frameworks */,
 				038FA7A02964E4150027FF34 /* Resources */,
+				1CF84CB20159E1BBCAD936A5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +274,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 038FA7D22964E4170027FF34 /* Build configuration list for PBXNativeTarget "AppDesafioChuckNorrisTests" */;
 			buildPhases = (
+				2086D1343B2C049368F32228 /* [CP] Check Pods Manifest.lock */,
 				038FA7B72964E4170027FF34 /* Sources */,
 				038FA7B82964E4170027FF34 /* Frameworks */,
 				038FA7B92964E4170027FF34 /* Resources */,
@@ -169,9 +293,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 038FA7D52964E4170027FF34 /* Build configuration list for PBXNativeTarget "AppDesafioChuckNorrisUITests" */;
 			buildPhases = (
+				3B71A9D4EC0E5384F2BF61FB /* [CP] Check Pods Manifest.lock */,
 				038FA7C12964E4170027FF34 /* Sources */,
 				038FA7C22964E4170027FF34 /* Frameworks */,
 				038FA7C32964E4170027FF34 /* Resources */,
+				F643C31E43F6B45A4EB1F8F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +378,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CF84CB20159E1BBCAD936A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppDesafioChuckNorris/Pods-AppDesafioChuckNorris-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppDesafioChuckNorris/Pods-AppDesafioChuckNorris-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppDesafioChuckNorris/Pods-AppDesafioChuckNorris-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2086D1343B2C049368F32228 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppDesafioChuckNorrisTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35393117ED1215FBE91A7ADE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppDesafioChuckNorris-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B71A9D4EC0E5384F2BF61FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppDesafioChuckNorris-AppDesafioChuckNorrisUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F643C31E43F6B45A4EB1F8F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppDesafioChuckNorris-AppDesafioChuckNorrisUITests/Pods-AppDesafioChuckNorris-AppDesafioChuckNorrisUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppDesafioChuckNorris-AppDesafioChuckNorrisUITests/Pods-AppDesafioChuckNorris-AppDesafioChuckNorrisUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppDesafioChuckNorris-AppDesafioChuckNorrisUITests/Pods-AppDesafioChuckNorris-AppDesafioChuckNorrisUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		038FA79E2964E4150027FF34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -259,7 +488,10 @@
 			files = (
 				038FA7AA2964E4150027FF34 /* CategoriesVC.swift in Sources */,
 				038FA7B02964E4150027FF34 /* AppDesafioChuckNorris.xcdatamodeld in Sources */,
+				038FA7E82964E7E70027FF34 /* GenericService.swift in Sources */,
 				038FA7A62964E4150027FF34 /* AppDelegate.swift in Sources */,
+				038FA7E12964E7510027FF34 /* CategoriesScreen.swift in Sources */,
+				038FA7E32964E78A0027FF34 /* CategoriesViewModel.swift in Sources */,
 				038FA7A82964E4150027FF34 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +656,7 @@
 		};
 		038FA7D02964E4170027FF34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03CA8D68FA92F4CFAAE29F14 /* Pods-AppDesafioChuckNorris.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -431,7 +664,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X24P9DA2X5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AppDesafioChuckNorris/Info.plist;
+				INFOPLIST_FILE = AppDesafioChuckNorris/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -455,6 +688,7 @@
 		};
 		038FA7D12964E4170027FF34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C01E67EE6F3C3A359936224B /* Pods-AppDesafioChuckNorris.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,7 +696,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X24P9DA2X5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AppDesafioChuckNorris/Info.plist;
+				INFOPLIST_FILE = AppDesafioChuckNorris/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -486,6 +720,7 @@
 		};
 		038FA7D32964E4170027FF34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D16A040E7A31D0C32F9599F /* Pods-AppDesafioChuckNorrisTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +741,7 @@
 		};
 		038FA7D42964E4170027FF34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFA8C66AEF41AD80092B7ECC /* Pods-AppDesafioChuckNorrisTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -526,6 +762,7 @@
 		};
 		038FA7D62964E4170027FF34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D10E5140D515223308DE2A /* Pods-AppDesafioChuckNorris-AppDesafioChuckNorrisUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -544,6 +781,7 @@
 		};
 		038FA7D72964E4170027FF34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D120B7A6A784113A834147DD /* Pods-AppDesafioChuckNorris-AppDesafioChuckNorrisUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
