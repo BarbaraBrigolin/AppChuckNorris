@@ -1,0 +1,182 @@
+{
+    "result": [
+        {
+            "categories": [
+                "animal"
+            ],
+            "created_at": "2020-01-05 13:42:19.104863",
+            "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+            "id": "o-vfxwx6rgecuo_f5cecpq",
+            "updated_at": "2020-01-05 13:42:19.104863",
+            "url": "https://api.chucknorris.io/jokes/o-vfxwx6rgecuo_f5cecpq",
+            "value": "They say curiosity killed the cat. This is false. Chuck Norris killed the cat. Every single one of them."
+
+        },
+        {
+            "categories": [
+                "career"
+            ],
+            "created_at": "2020-01-05 13:42:18.823766",
+            "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+            "id": "cwguxfhptcuagndjdt1hya",
+            "updated_at": "2020-01-05 13:42:18.823766",
+            "url": "https://api.chucknorris.io/jokes/cwguxfhptcuagndjdt1hya",
+            "value": "In the beginning there was nothing...then Chuck Norris Roundhouse kicked that nothing in the face and said \"Get a job\". That is the story of the universe."
+        },
+        {
+            "categories": [
+                "celebrity"
+            ],
+            "created_at": "2020-01-05 13:42:28.420821",
+            "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+            "id": "H_kE59K4SDi-lgW7s2E7Yw",
+            "updated_at": "2020-01-05 13:42:28.420821",
+            "url": "https://api.chucknorris.io/jokes/H_kE59K4SDi-lgW7s2E7Yw",
+            "value": "The reason Charlie Sheen is winning, is because Chuck Norris isn't playing."
+        },
+        {
+            "categories": [
+                "dev"
+            ],
+            "created_at": "2020-01-05 13:42:19.324003",
+            "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+            "id": "o6dsz6earzip2ivqoipamg",
+            "updated_at": "2020-01-05 13:42:19.324003",
+            "url": "https://api.chucknorris.io/jokes/o6dsz6earzip2ivqoipamg",
+            "value": "All browsers support the hex definitions #chuck and #norris for the colors black and blue."
+        },
+        {
+            "categories": [
+                "explicit"
+            ],
+            "created_at": "2020-01-05 13:42:29.855523",
+            "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+            "id": "iarqapqFSwSl8SARODA_OA",
+            "updated_at": "2020-01-05 13:42:29.855523",
+            "url": "https://api.chucknorris.io/jokes/iarqapqFSwSl8SARODA_OA",
+            "value": "Chuck Norris is so gay i was like NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM NOM on HIS FACE!"
+        },
+        {
+            "categories": [
+                "fashion"
+            ],
+            "created_at": "2020-01-05 13:42:18.823766",
+            "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+            "id": "0wdewlp2tz-mt_upesvrjw",
+            "updated_at": "2020-01-05 13:42:18.823766",
+            "url": "https://api.chucknorris.io/jokes/0wdewlp2tz-mt_upesvrjw",
+            "value": "Chuck Norris does not follow fashion trends, they follow him. But then he turns around and kicks their ass. Nobody follows Chuck Norris."
+        },
+        {
+            "categories": [
+                "food"
+            ],
+            "created_at": "2020-01-05 13:42:19.576875",
+            "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+            "id": "-ojrkppmrqmwrn9e5huydq",
+            "updated_at": "2020-01-05 13:42:19.576875",
+            "url": "https://api.chucknorris.io/jokes/-ojrkppmrqmwrn9e5huydq",
+            "value": "Chuck Norris starts everyday with a protein shake made from Carnation Instant Breakfast, one dozen eggs, pure Colombian cocaine, and rattlesnake venom. He injects it directly into his neck with a syringe."
+        },
+        {
+            "categories": [
+                "history"
+            ],
+            "created_at": "2020-01-05 13:42:19.576875",
+            "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+            "id": "kfjreqvxs464s6rspcj-qq",
+            "updated_at": "2020-01-05 13:42:19.576875",
+            "url": "https://api.chucknorris.io/jokes/kfjreqvxs464s6rspcj-qq",
+            "value": "Chuck Norris once shot down a German fighter plane with his finger. By yelling \"Bang!\""
+        },
+        {
+            "categories": [
+                "money"
+            ],
+            "created_at": "2020-01-05 13:42:24.40636",
+            "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+            "id": "gjcgdPlIRhGhXe5WmiOysw",
+            "updated_at": "2020-05-22 06:16:41.133769",
+            "url": "https://api.chucknorris.io/jokes/gjcgdPlIRhGhXe5WmiOysw",
+            "value": "A mugger thought he was going to take Chuck Norris' money. His funeral is tomorrow."
+        },
+        {
+            "categories": [
+                "movie"
+            ],
+            "created_at": "2020-01-05 13:42:29.855523",
+            "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+            "id": "bEfuO4msQ12ub8S1ZKJqvw",
+            "updated_at": "2020-01-05 13:42:29.855523",
+            "url": "https://api.chucknorris.io/jokes/bEfuO4msQ12ub8S1ZKJqvw",
+            "value": "In the director's cut of \"The End of Days,\" Arnold Schwarzenegger is fighting a losing battle with the Devil until he prays to a stained glass window of Chuck Norris putting on a pair of jeans. They had to use CGI to superimpose a crucified Jesus for the theatrical release."
+        },
+        {
+            "categories": [
+                "music"
+            ],
+            "created_at": "2020-01-05 13:42:19.576875",
+            "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+            "id": "7tb4dwgvrwkaqg-a-wzhlq",
+            "updated_at": "2020-01-05 13:42:19.576875",
+            "url": "https://api.chucknorris.io/jokes/7tb4dwgvrwkaqg-a-wzhlq",
+            "value": "Chuck Norris shot the sheriff, but he round house kicked the deputy."
+        },
+        {
+            "categories": [
+                "political"
+            ],
+            "created_at": "2020-01-05 13:42:29.855523",
+            "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+            "id": "urv99vobshwv4masls2teg",
+            "updated_at": "2020-01-05 13:42:29.855523",
+            "url": "https://api.chucknorris.io/jokes/urv99vobshwv4masls2teg",
+            "value": "The Manhattan Project was not intended to create nuclear weapons, it was meant to recreate the destructive power in a Chuck Norris Roundhouse Kick. They didn't even come close."
+        },
+        {
+            "categories": [
+                "religion"
+            ],
+            "created_at": "2020-01-05 13:42:19.576875",
+            "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+            "id": "-fa7rpzlr2iafe1pmq7xaa",
+            "updated_at": "2020-01-05 13:42:19.576875",
+            "url": "https://api.chucknorris.io/jokes/-fa7rpzlr2iafe1pmq7xaa",
+            "value": "A high tide means Chuck Norris is flying over your coast. The tide is caused by God pissing his pants."
+        },
+        {
+            "categories": [
+                "science"
+            ],
+            "created_at": "2020-01-05 13:42:19.576875",
+            "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+            "id": "kb89coersuwc_lifrsx8yq",
+            "updated_at": "2020-01-05 13:42:19.576875",
+            "url": "https://api.chucknorris.io/jokes/kb89coersuwc_lifrsx8yq",
+            "value": "Chuck Norris grinds his coffee with his teeth and boils the water with his own rage."
+        },
+        {
+            "categories": [
+                "sport"
+            ],
+            "created_at": "2020-01-05 13:42:19.576875",
+            "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+            "id": "17or3xgerjg7gsv9pcazwa",
+            "updated_at": "2020-01-05 13:42:19.576875",
+            "url": "https://api.chucknorris.io/jokes/17or3xgerjg7gsv9pcazwa",
+            "value": "Chuck Norris once participated in the running of the bulls. He walked."
+        },
+        {
+            "categories": [
+                "travel"
+            ],
+            "created_at": "2020-01-05 13:42:19.576875",
+            "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+            "id": "8l-mg2v1s-kz1p6uz5mdmg",
+            "updated_at": "2020-01-05 13:42:19.576875",
+            "url": "https://api.chucknorris.io/jokes/8l-mg2v1s-kz1p6uz5mdmg",
+            "value": "As an infant, Chuck Norris' parents gave him a toy hammer. He gave the world Stonehenge."
+        }
+
+    ]
+}

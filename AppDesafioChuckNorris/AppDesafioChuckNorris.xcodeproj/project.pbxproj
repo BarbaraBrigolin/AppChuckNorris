@@ -19,6 +19,8 @@
 		038FA7E12964E7510027FF34 /* CategoriesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FA7E02964E7510027FF34 /* CategoriesScreen.swift */; };
 		038FA7E32964E78A0027FF34 /* CategoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FA7E22964E78A0027FF34 /* CategoriesViewModel.swift */; };
 		038FA7E82964E7E70027FF34 /* GenericService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FA7E72964E7E70027FF34 /* GenericService.swift */; };
+		038FA7EB2964EF0B0027FF34 /* CategoriesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 038FA7EA2964EF0B0027FF34 /* CategoriesData.json */; };
+		038FA7EF2964EFB00027FF34 /* CategoriesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FA7EE2964EFB00027FF34 /* CategoriesData.swift */; };
 		3AF84D577932D8F79C6CEB2A /* Pods_AppDesafioChuckNorris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98A040B5D85E3DEAE431832F /* Pods_AppDesafioChuckNorris.framework */; };
 		C5BBE403B1BC30515CD791CC /* Pods_AppDesafioChuckNorris_AppDesafioChuckNorrisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CD7A6B1786E5DF099D2CA9 /* Pods_AppDesafioChuckNorris_AppDesafioChuckNorrisUITests.framework */; };
 		C7D83BFD40D1D6436B912435 /* Pods_AppDesafioChuckNorrisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE93563908A6DCCC24E42EFA /* Pods_AppDesafioChuckNorrisTests.framework */; };
@@ -58,6 +60,8 @@
 		038FA7E02964E7510027FF34 /* CategoriesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesScreen.swift; sourceTree = "<group>"; };
 		038FA7E22964E78A0027FF34 /* CategoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewModel.swift; sourceTree = "<group>"; };
 		038FA7E72964E7E70027FF34 /* GenericService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericService.swift; sourceTree = "<group>"; };
+		038FA7EA2964EF0B0027FF34 /* CategoriesData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CategoriesData.json; sourceTree = "<group>"; };
+		038FA7EE2964EFB00027FF34 /* CategoriesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesData.swift; sourceTree = "<group>"; };
 		03CA8D68FA92F4CFAAE29F14 /* Pods-AppDesafioChuckNorris.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDesafioChuckNorris.debug.xcconfig"; path = "Target Support Files/Pods-AppDesafioChuckNorris/Pods-AppDesafioChuckNorris.debug.xcconfig"; sourceTree = "<group>"; };
 		57D10E5140D515223308DE2A /* Pods-AppDesafioChuckNorris-AppDesafioChuckNorrisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDesafioChuckNorris-AppDesafioChuckNorrisUITests.debug.xcconfig"; path = "Target Support Files/Pods-AppDesafioChuckNorris-AppDesafioChuckNorrisUITests/Pods-AppDesafioChuckNorris-AppDesafioChuckNorrisUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D16A040E7A31D0C32F9599F /* Pods-AppDesafioChuckNorrisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDesafioChuckNorrisTests.debug.xcconfig"; path = "Target Support Files/Pods-AppDesafioChuckNorrisTests/Pods-AppDesafioChuckNorrisTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -149,6 +153,7 @@
 		038FA7D82964E65E0027FF34 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				038FA7E92964EEE90027FF34 /* Json */,
 				038FA7B12964E4170027FF34 /* Assets.xcassets */,
 				038FA7B32964E4170027FF34 /* LaunchScreen.storyboard */,
 				038FA7B62964E4170027FF34 /* Info.plist */,
@@ -161,6 +166,7 @@
 			children = (
 				038FA7E42964E7AC0027FF34 /* Service */,
 				038FA7DC2964E6AA0027FF34 /* Categories */,
+				038FA7EC2964EF830027FF34 /* Model */,
 				038FA7DB2964E6A30027FF34 /* AppDelegate */,
 				038FA7DA2964E69A0027FF34 /* SceneDelegate */,
 			);
@@ -223,6 +229,22 @@
 				038FA7E72964E7E70027FF34 /* GenericService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		038FA7E92964EEE90027FF34 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				038FA7EA2964EF0B0027FF34 /* CategoriesData.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		038FA7EC2964EF830027FF34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				038FA7EE2964EFB00027FF34 /* CategoriesData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		660003AD23D05E905BECC96D /* Pods */ = {
@@ -358,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				038FA7B52964E4170027FF34 /* LaunchScreen.storyboard in Resources */,
+				038FA7EB2964EF0B0027FF34 /* CategoriesData.json in Resources */,
 				038FA7B22964E4170027FF34 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -493,6 +516,7 @@
 				038FA7E12964E7510027FF34 /* CategoriesScreen.swift in Sources */,
 				038FA7E32964E78A0027FF34 /* CategoriesViewModel.swift in Sources */,
 				038FA7A82964E4150027FF34 /* SceneDelegate.swift in Sources */,
+				038FA7EF2964EFB00027FF34 /* CategoriesData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
