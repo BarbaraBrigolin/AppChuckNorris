@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		038FA7A62964E4150027FF34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FA7A52964E4150027FF34 /* AppDelegate.swift */; };
 		038FA7A82964E4150027FF34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FA7A72964E4150027FF34 /* SceneDelegate.swift */; };
-		038FA7AA2964E4150027FF34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FA7A92964E4150027FF34 /* ViewController.swift */; };
-		038FA7AD2964E4150027FF34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 038FA7AB2964E4150027FF34 /* Main.storyboard */; };
+		038FA7AA2964E4150027FF34 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FA7A92964E4150027FF34 /* CategoriesVC.swift */; };
 		038FA7B02964E4150027FF34 /* AppDesafioChuckNorris.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 038FA7AE2964E4150027FF34 /* AppDesafioChuckNorris.xcdatamodeld */; };
 		038FA7B22964E4170027FF34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 038FA7B12964E4170027FF34 /* Assets.xcassets */; };
 		038FA7B52964E4170027FF34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 038FA7B32964E4170027FF34 /* LaunchScreen.storyboard */; };
@@ -40,8 +39,7 @@
 		038FA7A22964E4150027FF34 /* AppDesafioChuckNorris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppDesafioChuckNorris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		038FA7A52964E4150027FF34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		038FA7A72964E4150027FF34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		038FA7A92964E4150027FF34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		038FA7AC2964E4150027FF34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		038FA7A92964E4150027FF34 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
 		038FA7AF2964E4150027FF34 /* AppDesafioChuckNorris.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppDesafioChuckNorris.xcdatamodel; sourceTree = "<group>"; };
 		038FA7B12964E4170027FF34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		038FA7B42964E4170027FF34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,8 +101,7 @@
 			children = (
 				038FA7A52964E4150027FF34 /* AppDelegate.swift */,
 				038FA7A72964E4150027FF34 /* SceneDelegate.swift */,
-				038FA7A92964E4150027FF34 /* ViewController.swift */,
-				038FA7AB2964E4150027FF34 /* Main.storyboard */,
+				038FA7A92964E4150027FF34 /* CategoriesVC.swift */,
 				038FA7B12964E4170027FF34 /* Assets.xcassets */,
 				038FA7B32964E4170027FF34 /* LaunchScreen.storyboard */,
 				038FA7B62964E4170027FF34 /* Info.plist */,
@@ -236,7 +233,6 @@
 			files = (
 				038FA7B52964E4170027FF34 /* LaunchScreen.storyboard in Resources */,
 				038FA7B22964E4170027FF34 /* Assets.xcassets in Resources */,
-				038FA7AD2964E4150027FF34 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				038FA7AA2964E4150027FF34 /* ViewController.swift in Sources */,
+				038FA7AA2964E4150027FF34 /* CategoriesVC.swift in Sources */,
 				038FA7B02964E4150027FF34 /* AppDesafioChuckNorris.xcdatamodeld in Sources */,
 				038FA7A62964E4150027FF34 /* AppDelegate.swift in Sources */,
 				038FA7A82964E4150027FF34 /* SceneDelegate.swift in Sources */,
@@ -301,14 +297,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		038FA7AB2964E4150027FF34 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				038FA7AC2964E4150027FF34 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		038FA7B32964E4170027FF34 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -446,7 +434,7 @@
 				INFOPLIST_FILE = AppDesafioChuckNorris/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -477,7 +465,7 @@
 				INFOPLIST_FILE = AppDesafioChuckNorris/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
