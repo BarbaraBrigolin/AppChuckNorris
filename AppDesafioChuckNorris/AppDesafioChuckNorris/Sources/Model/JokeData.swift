@@ -1,5 +1,5 @@
 //
-//  CategoriesData.swift
+//  JokeData.swift
 //  AppDesafioChuckNorris
 //
 //  Created by Barbara Brigolin on 03/01/23.
@@ -7,7 +7,7 @@
 
 import Foundation
 // MARK: - CategoriesData
-struct CategoriesData: Codable {
+struct JokeData: Codable {
     var result: [Result]?
 }
 

@@ -8,10 +8,13 @@
 import UIKit
 
 class CategoriesVC: UIViewController {
+    
+    private var viewModel: CategoriesViewModel = CategoriesViewModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .blue
+        self.viewModel.fetch(.mock)
     }
 
 
