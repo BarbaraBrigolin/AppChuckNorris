@@ -51,5 +51,13 @@ class CategoriesViewModel {
             }
         }
     }
+    
+    public var numberOfRowsInSection: Int {
+        return categoriesData?.count ?? 0
+    }
+    
+    public func heightForRowAt(indexPath: IndexPath) -> CGFloat {
+        return 60
+    }
 }
 
