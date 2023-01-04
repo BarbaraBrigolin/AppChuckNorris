@@ -13,22 +13,21 @@ class CategoriesTableViewCellScreen: UIView {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.textColor = .black
-        label.font = UIFont.boldSystemFont(ofSize: 20)
-        label.text = "Teste"
+        label.font = UIFont.systemFont(ofSize: 18, weight: .semibold)
         return label
     }()
     
     lazy var vetorLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.textColor = .black
-        label.font = UIFont.boldSystemFont(ofSize: 20)
-        label.text = ">"
+        label.textColor = .lightGray
+        label.font = UIFont.systemFont(ofSize: 18, weight: .semibold)
         return label
     }()
 
     override init(frame: CGRect) {
         super.init(frame: frame)
+        backgroundColor = .white
         addSubView()
         setupConstraints()
     }

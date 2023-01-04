@@ -26,7 +26,7 @@ class CategoriesViewModel {
         self.delegate = delegate
     }
     
-    private var categoriesData: [String]?
+    private var categoriesData: [String] = []
     
     
     public func fetch(_ typeFetch: TypeFetch){
@@ -53,8 +53,15 @@ class CategoriesViewModel {
     }
     
     public var numberOfRowsInSection: Int {
-        return categoriesData?.count ?? 0
+        return categoriesData.count
     }
+    
+    func categoryData(index: Int) -> CategoryData {
+        let title = categoriesData[index]
+        return CategoryData(title: title)
+    }
+    
+
     
     public func heightForRowAt(indexPath: IndexPath) -> CGFloat {
         return 60

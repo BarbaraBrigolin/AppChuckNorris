@@ -22,7 +22,6 @@ class CategoriesTableViewCell: UITableViewCell {
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        backgroundColor = .green
         addSubView()
         setUpConstraints()
     }
@@ -32,7 +31,8 @@ class CategoriesTableViewCell: UITableViewCell {
     }
     
     public func setupCell(data: CategoryData) {
-        self.screen.titleLabel.text = data.title 
+        self.screen.titleLabel.text = data.title
+        self.screen.vetorLabel.text = ">"
     }
 
     required init?(coder: NSCoder) {

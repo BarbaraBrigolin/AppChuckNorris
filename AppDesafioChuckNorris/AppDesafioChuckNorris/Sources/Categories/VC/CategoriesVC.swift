@@ -19,8 +19,9 @@ class CategoriesVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .blue
+        viewModel.delegate(delegate: self)
         self.viewModel.fetch(.request)
+        
     }
 
 
@@ -29,12 +30,13 @@ class CategoriesVC: UIViewController {
 extension CategoriesVC: CategoriesViewModelDelegate {
     func success() {
         self.categoriesScreen?.configTableViewProtocols(delegate: self, dataSource: self)
+        self.categoriesScreen?.tableView.reloadData()
+       
     }
     
     func error(_message: String) {
         print("Error-> \(_message)")
     }
-    
     
 }
 
@@ -49,6 +51,7 @@ extension CategoriesVC: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: CategoriesTableViewCell.identififier, for: indexPath) as? CategoriesTableViewCell
+        cell?.setupCell(data: viewModel.categoryData(index: indexPath.row))
         
         return cell ?? UITableViewCell()
     }
