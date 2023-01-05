@@ -19,6 +19,7 @@ class JokeVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.viewModel.fech(.request)
 
     }
 

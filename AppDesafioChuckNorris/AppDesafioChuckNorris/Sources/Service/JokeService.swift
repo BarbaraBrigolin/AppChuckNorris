@@ -15,7 +15,7 @@ protocol JokeServiceDelegate: GenericService{
 
 class JokeService: JokeServiceDelegate {
     func getHome(category: String ,completion: @escaping completion<JokeData?>) {
-        let url: String = "https://api.chucknorris.io/jokes/random?category=\(category)"
+        let url: String = "https://api.chucknorris.io/jokes/random?category=\(category)"   
         
         AF.request(url, method: .get).validate().responseDecodable(of: JokeData?.self) { response in
             print(#function)

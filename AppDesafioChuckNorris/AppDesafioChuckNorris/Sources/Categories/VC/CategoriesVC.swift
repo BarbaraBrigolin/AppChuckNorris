@@ -43,6 +43,10 @@ extension CategoriesVC: CategoriesViewModelDelegate {
 }
 
 extension CategoriesVC: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc: JokeVC = JokeVC()
+        present(vc, animated: true)
+    }
 }
 
 extension CategoriesVC: UITableViewDataSource {

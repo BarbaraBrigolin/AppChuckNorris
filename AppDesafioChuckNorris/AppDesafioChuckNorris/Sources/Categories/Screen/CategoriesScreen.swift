@@ -13,6 +13,7 @@ class CategoriesScreen: UIView {
         let tableView = UITableView()
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.register(CategoriesTableViewCell.self, forCellReuseIdentifier: CategoriesTableViewCell.identififier)
+        tableView.separatorStyle = .none
         return tableView
     }()
     
