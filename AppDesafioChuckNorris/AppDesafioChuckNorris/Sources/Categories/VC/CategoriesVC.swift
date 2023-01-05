@@ -23,7 +23,9 @@ class CategoriesVC: UIViewController {
         self.viewModel.fetch(.request)
         
     }
-
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.navigationBar.isHidden = true
+    }
 
 }
 

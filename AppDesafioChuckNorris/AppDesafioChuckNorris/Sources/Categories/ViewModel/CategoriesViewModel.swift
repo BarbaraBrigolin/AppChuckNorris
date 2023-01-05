@@ -29,7 +29,7 @@ class CategoriesViewModel {
     private var categoriesData: [String] = []
     
     
-    public func fetch(_ typeFetch: TypeFetch){
+    public func fetch(_ typeFetch: TypeFetch) {
         switch typeFetch {
         case.mock:
             self.service.getHomefromJson { sucess, error in
