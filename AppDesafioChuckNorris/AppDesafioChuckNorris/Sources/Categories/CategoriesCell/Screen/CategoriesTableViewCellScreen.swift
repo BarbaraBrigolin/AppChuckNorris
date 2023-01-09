@@ -44,10 +44,10 @@ class CategoriesTableViewCellScreen: UIView {
     private func setupConstraints() {
         NSLayoutConstraint.activate([
             
-            titleLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 10),
+            titleLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 20),
             titleLabel.centerYAnchor.constraint(equalTo: self.centerYAnchor),
             
-            vetorLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -10),
+            vetorLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -15),
             vetorLabel.centerYAnchor.constraint(equalTo: self.centerYAnchor)
         ])
     }

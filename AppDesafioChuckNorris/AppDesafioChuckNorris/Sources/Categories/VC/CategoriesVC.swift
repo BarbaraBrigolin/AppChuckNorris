@@ -29,6 +29,7 @@ class CategoriesVC: UIViewController {
 
 }
 
+
 extension CategoriesVC: CategoriesViewModelDelegate {
     func success() {
         self.categoriesScreen?.configTableViewProtocols(delegate: self, dataSource: self)
@@ -43,10 +44,11 @@ extension CategoriesVC: CategoriesViewModelDelegate {
 }
 
 extension CategoriesVC: UITableViewDelegate {
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let vc: JokeVC = JokeVC()
-        present(vc, animated: true)
-    }
+//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        let vc: JokeVC = JokeVC(category: <#T##JokeData#>) TO DO 
+        
+//        present(vc, animated: true)
+//    }
 }
 
 extension CategoriesVC: UITableViewDataSource {

@@ -21,24 +21,31 @@ class JokeViewModel  {
         self.delegate = delegate
     }
     
-    private var jokeData: JokeData?
-    private var category: String?
+    private var category: JokeData
     
-    public func fech(_ typeFetch: TypeFetch) {
-        switch typeFetch {
-        case.request:
-            self.service.getHome(category: category ?? "") { sucess, error in
-                if let sucess = sucess {
-                    self.jokeData = sucess
-                    self.delegate?.success()
-                } else {
-                    self.delegate?.error(_message: error?.localizedDescription ?? "")
-                }
-            }
-        case .mock:
-            print("testar depois")
-        }
+    init (category: JokeData) {
+        self.category = category
     }
+    
+    
+    private var categories: String?
+    
+    
+//    public func fech(_ typeFetch: TypeFetch) {
+//        switch typeFetch {
+//        case.request:
+//            self.service.getHome(category: category ?? "") { sucess, error in
+//                if let sucess = sucess {
+//                    self.jokeData = sucess
+//                    self.delegate?.success()
+//                } else {
+//                    self.delegate?.error(_message: error?.localizedDescription ?? "")
+//                }
+//            }
+//        case .mock:
+//            print("testar depois")
+//        }
+//    }
 
     
 

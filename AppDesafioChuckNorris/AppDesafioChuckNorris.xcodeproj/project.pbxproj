@@ -25,7 +25,7 @@
 		038FA7F62964FA2A0027FF34 /* JokeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FA7F52964FA2A0027FF34 /* JokeData.swift */; };
 		038FA7F92965B8A20027FF34 /* CategoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FA7F82965B8A20027FF34 /* CategoriesTableViewCell.swift */; };
 		038FA7FC2965B9CE0027FF34 /* CategoriesTableViewCellScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FA7FB2965B9CE0027FF34 /* CategoriesTableViewCellScreen.swift */; };
-		038FA7FE2965C7200027FF34 /* CategoriesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FA7FD2965C7200027FF34 /* CategoriesData.swift */; };
+		038FA7FE2965C7200027FF34 /* CategoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FA7FD2965C7200027FF34 /* CategoryData.swift */; };
 		038FA800296643C70027FF34 /* JokeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FA7FF296643C70027FF34 /* JokeService.swift */; };
 		038FA8072967076B0027FF34 /* JokeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FA8062967076B0027FF34 /* JokeScreen.swift */; };
 		038FA809296707CE0027FF34 /* JokeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FA808296707CE0027FF34 /* JokeVC.swift */; };
@@ -75,7 +75,7 @@
 		038FA7F52964FA2A0027FF34 /* JokeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeData.swift; sourceTree = "<group>"; };
 		038FA7F82965B8A20027FF34 /* CategoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewCell.swift; sourceTree = "<group>"; };
 		038FA7FB2965B9CE0027FF34 /* CategoriesTableViewCellScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewCellScreen.swift; sourceTree = "<group>"; };
-		038FA7FD2965C7200027FF34 /* CategoriesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesData.swift; sourceTree = "<group>"; };
+		038FA7FD2965C7200027FF34 /* CategoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryData.swift; sourceTree = "<group>"; };
 		038FA7FF296643C70027FF34 /* JokeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeService.swift; sourceTree = "<group>"; };
 		038FA8062967076B0027FF34 /* JokeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeScreen.swift; sourceTree = "<group>"; };
 		038FA808296707CE0027FF34 /* JokeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeVC.swift; sourceTree = "<group>"; };
@@ -266,7 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				038FA7F52964FA2A0027FF34 /* JokeData.swift */,
-				038FA7FD2965C7200027FF34 /* CategoriesData.swift */,
+				038FA7FD2965C7200027FF34 /* CategoryData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -593,7 +593,7 @@
 				038FA7A62964E4150027FF34 /* AppDelegate.swift in Sources */,
 				038FA7E12964E7510027FF34 /* CategoriesScreen.swift in Sources */,
 				038FA7E32964E78A0027FF34 /* CategoriesViewModel.swift in Sources */,
-				038FA7FE2965C7200027FF34 /* CategoriesData.swift in Sources */,
+				038FA7FE2965C7200027FF34 /* CategoryData.swift in Sources */,
 				038FA8072967076B0027FF34 /* JokeScreen.swift in Sources */,
 				038FA7FC2965B9CE0027FF34 /* CategoriesTableViewCellScreen.swift in Sources */,
 				038FA7A82964E4150027FF34 /* SceneDelegate.swift in Sources */,
