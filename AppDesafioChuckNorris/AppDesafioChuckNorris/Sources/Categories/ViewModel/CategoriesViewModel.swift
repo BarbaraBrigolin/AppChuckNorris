@@ -26,7 +26,7 @@ class CategoriesViewModel {
         self.delegate = delegate
     }
     
-    private var categoriesData: [String] = []
+    private var categoriesList: [String] = []
     
     
     public func fetch(_ typeFetch: TypeFetch) {
@@ -34,7 +34,7 @@ class CategoriesViewModel {
         case.mock:
             self.service.getHomefromJson { sucess, error in
                 if let sucess = sucess {
-                    self.categoriesData = sucess
+                    self.categoriesList = sucess
                     self.delegate?.success()
                 }else {
                     self.delegate?.error(_message: error?.localizedDescription ?? "")
@@ -43,26 +43,26 @@ class CategoriesViewModel {
         case.request:
             self.service.getHome { success, error in
                 if let success = success {
-                    self.categoriesData = success
+                    self.categoriesList = success
                     self.delegate?.success()
                 }else {
                     self.delegate?.error(_message: error?.localizedDescription ?? "")
                 }
             }
         }
+        
     }
     
     public var numberOfRowsInSection: Int {
-        return categoriesData.count
+        return categoriesList.count
     }
     
-    func categoryData(index: Int) -> CategoryData {
-        let title = categoriesData[index]
-        return CategoryData(title: title)
+    func categoriesData(indexPath: IndexPath) -> String {
+        let title = categoriesList[indexPath.row] 
+        return title
     }
     
 
-    
     public func heightForRowAt(indexPath: IndexPath) -> CGFloat {
         return 60
     }

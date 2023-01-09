@@ -7,12 +7,12 @@
 
 import Foundation
 // MARK: - CategoriesData
-struct JokeData: Codable {
-    var result: [Result]?
+struct ResultJokeData: Codable {
+    var result: [JokeData]?
 }
 
 // MARK: - Result
-struct Result: Codable {
+struct JokeData: Codable {
     var categories: [String]?
     var createdAt: String?
     var iconURL: String?
@@ -29,3 +29,4 @@ struct Result: Codable {
         case url, value
     }
 }
+

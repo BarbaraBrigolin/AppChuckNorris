@@ -30,8 +30,8 @@ class CategoriesTableViewCell: UITableViewCell {
         self.contentView.addSubview(self.screen)
     }
     
-    public func setupCell(data: CategoryData) {
-        self.screen.titleLabel.text = data.title
+    public func setupCell(data: String) {
+        self.screen.titleLabel.text = data
         self.screen.vetorLabel.text = ">"
     }
 

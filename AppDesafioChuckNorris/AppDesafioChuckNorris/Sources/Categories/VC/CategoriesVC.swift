@@ -21,14 +21,12 @@ class CategoriesVC: UIViewController {
         super.viewDidLoad()
         viewModel.delegate(delegate: self)
         self.viewModel.fetch(.request)
-        
     }
+    
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.navigationBar.isHidden = true
     }
-
 }
-
 
 extension CategoriesVC: CategoriesViewModelDelegate {
     func success() {
@@ -45,13 +43,13 @@ extension CategoriesVC: CategoriesViewModelDelegate {
 
 extension CategoriesVC: UITableViewDelegate {
 //    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        let vc: JokeVC = JokeVC(category: <#T##JokeData#>) TO DO 
-        
+//        let vc: JokeVC = JokeVC(categoryJoke: <#JokeData#>)
 //        present(vc, animated: true)
 //    }
 }
 
 extension CategoriesVC: UITableViewDataSource {
+    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return viewModel.numberOfRowsInSection
@@ -59,7 +57,7 @@ extension CategoriesVC: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: CategoriesTableViewCell.identififier, for: indexPath) as? CategoriesTableViewCell
-        cell?.setupCell(data: viewModel.categoryData(index: indexPath.row))
+        cell?.setupCell(data: viewModel.categoriesData(indexPath: indexPath))
         
         return cell ?? UITableViewCell()
     }
