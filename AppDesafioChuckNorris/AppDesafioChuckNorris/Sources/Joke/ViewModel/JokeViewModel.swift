@@ -15,28 +15,27 @@ protocol JokeViewModelDelegate: AnyObject {
 class JokeViewModel  {
     
     private let service: JokeService = JokeService()
+    private var jokeData: JokeData = JokeData()
+    
     private weak var delegate: JokeViewModelDelegate?
-
+    
     public func delegate(delegate: JokeViewModelDelegate?) {
         self.delegate = delegate
     }
     
-    private var categoryJoke: JokeData
+    private var categoryJoke: String
     
-    init(categoryJoke: JokeData) {
+    init(categoryJoke: String) {
         self.categoryJoke = categoryJoke
     }
-
-
-    private var categories: String?
     
     
     public func fech(_ typeFetch: TypeFetch) {
         switch typeFetch {
         case.request:
-            self.service.getHome(category: categories ?? "") { sucess, error in
+            self.service.getHome(category: categoryJoke) { sucess, error in
                 if let sucess = sucess {
-                    self.categoryJoke = sucess
+                    self.jokeData = sucess
                     self.delegate?.success()
                 } else {
                     self.delegate?.error(_message: error?.localizedDescription ?? "")
@@ -45,6 +44,10 @@ class JokeViewModel  {
         case .mock:
             print("testar depois")
         }
+    }
+    
+    public var jokeResult: String {
+        return jokeData.value ?? ""
     }
 }
 

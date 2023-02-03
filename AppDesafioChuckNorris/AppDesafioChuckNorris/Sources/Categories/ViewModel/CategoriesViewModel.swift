@@ -20,14 +20,12 @@ protocol CategoriesViewModelDelegate: AnyObject {
 class CategoriesViewModel {
     
     private let service: CategoriesService = CategoriesService()
+    private var categoriesList: [String] = []
+    
     private weak var delegate: CategoriesViewModelDelegate?
-
     public func delegate(delegate: CategoriesViewModelDelegate?) {
         self.delegate = delegate
     }
-    
-    private var categoriesList: [String] = []
-    
     
     public func fetch(_ typeFetch: TypeFetch) {
         switch typeFetch {
@@ -50,21 +48,17 @@ class CategoriesViewModel {
                 }
             }
         }
-        
     }
     
     public var numberOfRowsInSection: Int {
         return categoriesList.count
     }
     
-    func categoriesData(indexPath: IndexPath) -> String {
-        let title = categoriesList[indexPath.row] 
-        return title
+    public func categoriesData(indexPath: IndexPath) -> String {
+        return categoriesList[indexPath.row]
     }
     
-
     public func heightForRowAt(indexPath: IndexPath) -> CGFloat {
         return 60
     }
 }
-

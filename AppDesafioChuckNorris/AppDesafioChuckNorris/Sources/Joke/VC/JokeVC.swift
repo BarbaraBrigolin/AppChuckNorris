@@ -9,11 +9,23 @@ import UIKit
 
 class JokeVC: UIViewController {
     
-    private var jokeScreen: JokeScreen?
+    private var jokeScreen: JokeScreen = JokeScreen()
     private let viewModel: JokeViewModel
     
 
-    required init(categoryJoke: JokeData) {
+    override func loadView() {
+        self.jokeScreen = JokeScreen()
+        self.view = jokeScreen
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.viewModel.delegate(delegate: self)
+        self.viewModel.fech(.request)
+
+    }
+    
+    required init(categoryJoke: String) {
         viewModel = JokeViewModel(categoryJoke: categoryJoke)
         super.init(nibName: nil, bundle: nil)
     }
@@ -21,16 +33,17 @@ class JokeVC: UIViewController {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    override func loadView() {
-        self.jokeScreen = JokeScreen()
-        self.view = JokeScreen()
+
+}
+extension JokeVC: JokeViewModelDelegate {
+    
+    func success() {
+        self.jokeScreen.jokeLabel.text = viewModel.jokeResult
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        self.viewModel.fech(.request)
-
+    func error(_message: String) {
+        print("--> ERROR <--")
     }
-
-
+    
+    
 }

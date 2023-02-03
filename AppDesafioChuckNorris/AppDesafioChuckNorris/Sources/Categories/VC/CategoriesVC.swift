@@ -9,12 +9,12 @@ import UIKit
 
 class CategoriesVC: UIViewController {
     
-    private var categoriesScreen: CategoriesScreen?
+    private var screen: CategoriesScreen?
     private let viewModel: CategoriesViewModel = CategoriesViewModel()
     
     override func loadView() {
-        self.categoriesScreen = CategoriesScreen()
-        self.view = categoriesScreen
+        self.screen = CategoriesScreen()
+        self.view = screen
     }
 
     override func viewDidLoad() {
@@ -29,23 +29,24 @@ class CategoriesVC: UIViewController {
 }
 
 extension CategoriesVC: CategoriesViewModelDelegate {
+    
     func success() {
-        self.categoriesScreen?.configTableViewProtocols(delegate: self, dataSource: self)
-        self.categoriesScreen?.tableView.reloadData()
-       
+        self.screen?.configTableViewProtocols(delegate: self, dataSource: self)
+        self.screen?.tableView.reloadData()
     }
     
     func error(_message: String) {
         print("Error-> \(_message)")
     }
-    
 }
 
 extension CategoriesVC: UITableViewDelegate {
-//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        let vc: JokeVC = JokeVC(categoryJoke: <#JokeData#>)
-//        present(vc, animated: true)
-//    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc: JokeVC = JokeVC(categoryJoke: viewModel.categoriesData(indexPath: indexPath))
+        vc.modalPresentationStyle = .automatic
+        present(vc, animated: true)
+        print(indexPath.item)
+    }
 }
 
 extension CategoriesVC: UITableViewDataSource {

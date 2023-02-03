@@ -6,12 +6,8 @@
 //
 
 import Foundation
-// MARK: - CategoriesData
-struct ResultJokeData: Codable {
-    var result: [JokeData]?
-}
 
-// MARK: - Result
+
 struct JokeData: Codable {
     var categories: [String]?
     var createdAt: String?
