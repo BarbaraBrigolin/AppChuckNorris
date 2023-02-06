@@ -9,6 +9,7 @@ import UIKit
 
 enum CategoriesTableViewCellString: String {
     case identifier = "CategoriesTableViewCell"
+    case indicator = ">"
 }
 
 class CategoriesTableViewCell: UITableViewCell {
@@ -32,7 +33,7 @@ class CategoriesTableViewCell: UITableViewCell {
     
     public func setupCell(data: String) {
         self.screen.titleLabel.text = data
-        self.screen.vetorLabel.text = ">"
+        self.screen.vetorLabel.text = CategoriesTableViewCellString.indicator.rawValue
     }
 
     required init?(coder: NSCoder) {

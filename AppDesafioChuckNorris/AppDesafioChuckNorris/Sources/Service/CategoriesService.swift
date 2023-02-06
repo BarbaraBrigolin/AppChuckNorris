@@ -9,14 +9,14 @@ import Foundation
 import Alamofire
 
 protocol CategoriesServiceDelegate: GenericService{
-    func getHome(completion: @escaping completion<[String]?>)
+    func getCategories(completion: @escaping completion<[String]?>)
     func getHomefromJson(completion: @escaping completion<[String]?>)
 }
 
 class CategoriesService: CategoriesServiceDelegate {
     
     
-    func getHome(completion: @escaping completion<[String]?>) {
+    func getCategories(completion: @escaping completion<[String]?>) {
         let url: String = "https://api.chucknorris.io/jokes/categories"
         
         AF.request(url, method: .get).validate().responseDecodable(of: [String]?.self) { response in
@@ -47,6 +47,4 @@ class CategoriesService: CategoriesServiceDelegate {
             }
         }
     }
-    
-
 }

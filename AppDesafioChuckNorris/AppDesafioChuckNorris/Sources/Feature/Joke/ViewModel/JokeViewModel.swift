@@ -29,7 +29,6 @@ class JokeViewModel  {
         self.categoryJoke = categoryJoke
     }
     
-    
     public func fech(_ typeFetch: TypeFetch) {
         switch typeFetch {
         case.request:
@@ -42,7 +41,14 @@ class JokeViewModel  {
                 }
             }
         case .mock:
-            print("testar depois")
+            self.service.getHome(category: categoryJoke) { sucess, error in
+                if let sucess = sucess {
+                    self.jokeData = sucess
+                    self.delegate?.success()
+                } else {
+                    self.delegate?.error(_message: error?.localizedDescription ?? "")
+                }
+            }
         }
     }
     

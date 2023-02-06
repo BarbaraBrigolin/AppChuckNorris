@@ -7,12 +7,16 @@
 
 import UIKit
 
+enum JokeScreenString: String {
+    case logoImage = "cn.logo"
+}
+
 class JokeScreen: UIView {
     
     lazy var logoImageView: UIImageView = {
         let image = UIImageView()
         image.translatesAutoresizingMaskIntoConstraints = false
-        image.image = UIImage(named: "cn.logo")
+        image.image = UIImage(named: JokeScreenString.logoImage.rawValue)
         image.contentMode = .scaleAspectFill
         return image
     }()
@@ -75,5 +79,4 @@ class JokeScreen: UIView {
 
         ])
     }
-
 }

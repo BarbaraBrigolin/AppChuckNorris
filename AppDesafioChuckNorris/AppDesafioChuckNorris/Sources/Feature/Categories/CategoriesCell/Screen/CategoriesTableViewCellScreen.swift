@@ -51,5 +51,4 @@ class CategoriesTableViewCellScreen: UIView {
             vetorLabel.centerYAnchor.constraint(equalTo: self.centerYAnchor)
         ])
     }
-    
 }

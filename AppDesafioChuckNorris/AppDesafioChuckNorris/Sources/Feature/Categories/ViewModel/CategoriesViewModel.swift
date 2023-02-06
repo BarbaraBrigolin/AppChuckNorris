@@ -39,7 +39,7 @@ class CategoriesViewModel {
                 }
             }
         case.request:
-            self.service.getHome { success, error in
+            self.service.getCategories { success, error in
                 if let success = success {
                     self.categoriesList = success
                     self.delegate?.success()
